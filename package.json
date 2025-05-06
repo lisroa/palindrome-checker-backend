@@ -1,0 +1,22 @@
+{
+	"scripts": {
+		"dev": "dotenv -e .env -- tsx watch src/index.ts",
+		"start": "node dist/index.js",
+		"typecheck": "tsc --noEmit --incremental false"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.12.2",
+		"@hono/zod-validator": "^0.2.2",
+		"hono": "^4.7.1",
+		"reflect-metadata": "^0.2.2",
+		"typedi": "^0.10.0",
+		"zod": "^3.23.6"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.7",
+		"dotenv-cli": "^8.0.0",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.7.2",
+		"typescript": "^5.4.5"
+	}
+}
