@@ -1,4 +1,5 @@
 {
+	"type": "module",
 	"scripts": {
 		"dev": "dotenv -e .env -- tsx watch src/index.ts",
 		"build": "tsc",
